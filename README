@@ -1,16 +1,16 @@
-# Amazon Delivery Performance & Agent Efficiency Dashboard
+Amazon Delivery Performance & Agent Efficiency Dashboard
 
-## Project Title
+Project Title
 
-**Amazon Delivery Performance & Agent Efficiency Dashboard**
+Amazon Delivery Performance & Agent Efficiency Dashboard
 
-## Project Overview
+Project Overview
 
 This project analyzes Amazon delivery operations to understand order patterns, delivery performance, agent efficiency, vehicle usage, and delivery locations.
 
-The project uses **MySQL** for database management and SQL analysis, and **Power BI** for data cleaning, visualization, KPI analysis, and dashboard development.
+The project uses MySQL for database management and SQL analysis, and Power BI for data cleaning, visualization, KPI analysis, and dashboard development.
 
-## Project Objectives
+Project Objectives
 
 - Analyze overall delivery order performance.
 - Identify order patterns by vehicle type, weather, traffic, and time.
@@ -20,16 +20,16 @@ The project uses **MySQL** for database management and SQL analysis, and **Power
 - Create interactive Power BI dashboards for business decision-making.
 - Identify areas that may contribute to delivery delays.
 
-## Tools & Technologies
+Tools & Technologies
 
-- **MySQL Workbench** – Database creation and SQL analysis
-- **Power BI Desktop** – Data cleaning, modeling, DAX, and dashboard creation
-- **Power Query** – ETL and data transformation
-- **DAX** – KPI and calculated measures
-- **Microsoft Excel / CSV** – Dataset handling
-- **GitHub** – Project repository and version control
+- MySQL Workbench – Database creation and SQL analysis
+- Power BI Desktop – Data cleaning, modeling, DAX, and dashboard creation
+- Power Query – ETL and data transformation
+- DAX – KPI and calculated measures
+- Microsoft Excel / CSV – Dataset handling
+- GitHub – Project repository and version control
 
-## Dataset Description
+Dataset Description
 
 The project uses an Amazon delivery dataset containing information related to:
 
@@ -47,9 +47,9 @@ The project uses an Amazon delivery dataset containing information related to:
 - Store Latitude and Longitude
 - Delivery Latitude and Longitude
 
-After data preparation and import, the main analysis contains approximately **9,972 valid orders**.
+After data preparation and import, the main analysis contains approximately 9,972 valid orders.
 
-## SQL Analysis
+SQL Analysis
 
 SQL was used to create and analyze the delivery database.
 
@@ -66,25 +66,25 @@ Major SQL analysis includes:
 
 The SQL queries are stored in:
 
-`MySQL/analysis_queries.sql`
+"MySQL/analysis_queries.sql"
 
-## Power BI Dashboard
+Power BI Dashboard
 
-The Power BI report contains four main dashboard pages.
+The Power BI report contains four main dashboard pages:
 
-### Page 1 – Summary
+Page 1 – Summary
 
 Provides an overall view of delivery operations using KPI cards and major order-level visualizations.
 
-### Page 2 – Delivery Performance
+Page 2 – Delivery Performance
 
 Analyzes delivery performance using delivery time, traffic, weather, and related delivery metrics.
 
-### Page 3 – Agent Performance
+Page 3 – Agent Performance
 
 Provides analysis of agent-related delivery performance and efficiency.
 
-### Page 4 – Orders & Location Analysis
+Page 4 – Orders & Location Analysis
 
 Analyzes:
 
@@ -95,7 +95,7 @@ Analyzes:
 - Orders by order hour
 - Store latitude and longitude-based location analysis
 
-## Key KPIs
+Key KPIs
 
 The dashboard focuses on important delivery-performance KPIs such as:
 
@@ -108,7 +108,7 @@ The dashboard focuses on important delivery-performance KPIs such as:
 - Orders by Traffic
 - Orders by Delivery Area
 
-## Key Insights
+Key Insights
 
 The dashboard helps identify:
 
@@ -120,9 +120,8 @@ The dashboard helps identify:
 - Differences in delivery performance across agents and areas.
 - Potential patterns that can be used to improve delivery efficiency.
 
-## Project Workflow
+Project Workflow
 
-```text
 Dataset Collection
        ↓
 Data Cleaning
@@ -148,11 +147,9 @@ Dashboard Navigation
 Insights & Analysis
        ↓
 GitHub Repository
-```
 
-## Repository Structure
+Repository Structure
 
-```text
 Amazon-Delivery-Performance-Dashboard/
 │
 ├── Dataset/
@@ -175,41 +172,40 @@ Amazon-Delivery-Performance-Dashboard/
 │   └── Orders_Location_Analysis.png
 │
 └── README.md
-```
 
-## Dashboard Screenshots
+Dashboard Screenshots
 
-### Summary Dashboard
+Summary Dashboard
 
 Add the screenshot of the Summary page here.
 
-### Delivery Performance Dashboard
+Delivery Performance Dashboard
 
 Add the screenshot of the Delivery Performance page here.
 
-### Agent Performance Dashboard
+Agent Performance Dashboard
 
 Add the screenshot of the Agent Performance page here.
 
-### Orders & Location Analysis Dashboard
+Orders & Location Analysis Dashboard
 
 Add the screenshot of the Orders & Location Analysis page here.
 
-## How to Run the Project
+How to Run the Project
 
 1. Download or clone the GitHub repository.
 2. Open MySQL Workbench.
-3. Create the `amazondelivery_db` database.
+3. Create the "amazondelivery_db" database.
 4. Run the database creation SQL script.
 5. Import the dataset into the required table.
-6. Run `analysis_queries.sql` to view the SQL analysis.
-7. Open the Power BI `.pbix` file.
+6. Run "analysis_queries.sql" to view the SQL analysis.
+7. Open the Power BI ".pbix" file.
 8. Refresh the data connection if required.
 9. Navigate through the four dashboard pages using the page navigation buttons.
 10. Explore the KPIs, charts, delivery analysis, agent performance, and location analysis.
 
-## Author
+Author
 
-**Nivetha Kalyani**
+Nivetha Kalyani
 
-**Project:** Amazon Delivery Performance & Agent Efficiency Dashboard
+Project: Amazon Delivery Performance & Agent Efficiency Dashboard
