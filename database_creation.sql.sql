@@ -1,9 +1,0 @@
-Database
-amazondelivery_db
-customer_db
-information_schema
-mysql
-performance_schema
-schooldb
-sys
-travel_db
