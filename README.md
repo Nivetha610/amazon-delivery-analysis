@@ -213,16 +213,21 @@ Amazon-Delivery-Performance-Analytics/
 
 
 ### Delivery Performance Analysis
+<img width="876" height="490" alt="delivery_analysis png" src="https://github.com/user-attachments/assets/efe77df4-c58a-4c14-8af9-e320ff7fe358" />
 
-This page analyzes delivery time, traffic, weather, and vehicle-related performance.
+
+
+
 
 ### Agent & Order Analysis
 
-This page focuses on agent efficiency, ratings, order activity, order hours, and pickup times.
+<img width="874" height="488" alt="agents_analysis png" src="https://github.com/user-attachments/assets/d92ad2b9-32b5-40be-829d-02eed3838873" />
+
 
 ### Orders & Location Analysis
 
-This page provides location-based analysis using store and delivery coordinates.
+<img width="885" height="485" alt="order_location_analysis png" src="https://github.com/user-attachments/assets/51a1e440-1687-445c-a090-9c9ea0e2a310" />
+
 
 > Dashboard screenshots are available in the **Screenshots** folder of this repository.
 
