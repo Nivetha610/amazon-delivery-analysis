@@ -230,6 +230,39 @@ Amazon-Delivery-Performance-Analytics/
 
 
 > Dashboard screenshots are available in the **Screenshots** folder of this repository.
+> DAX Measures
+
+Total Orders
+
+Total Orders = COUNTROWS('amazon_delivery_db orders')
+
+Total Agents
+
+Total Agents = DISTINCTCOUNT('amazon_delivery_db agents'[Agent_ID])
+
+Average Delivery Time
+
+Average Delivery Time = AVERAGE('amazon_delivery_db delivery_details'[Delivery_Time])
+
+Average Agent Rating
+
+Average Agent Rating = AVERAGE('amazon_delivery_db agents'[Agent_Rating])
+
+Total Delivery
+
+Total Delivery = COUNTROWS('amazon_delivery_db delivery_details')
+
+On Time Delivery
+
+Using a 30-minute delivery-time benchmark as the SLA:
+
+On Time Delivery =
+CALCULATE(
+    [Total Delivery],
+    'amazon_delivery_db delivery_details'[Delivery_Time] <= 30
+)
+
+Note: If your project uses a different delivery-time SLA, replace 30 with the actual benchmark used in your dashboard.
 
 ## How to Run the Project
 
@@ -258,7 +291,7 @@ The project files, SQL scripts, dataset, dashboard documentation, and screenshot
 
 ## Author
 
-**Nivetha Kalyani**
+**U.NIVETHA**
 
 **Project:** Amazon Delivery Performance & Agent Efficiency Dashboard
 
